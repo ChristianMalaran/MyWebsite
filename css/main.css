@@ -84,7 +84,6 @@ body:before {
   margin-left: auto !important;
   margin-right: auto !important;
   background-color: rgba(0, 0, 0, 0.6) !important;
-  
 }
 .skills {
   color: white;
@@ -105,11 +104,11 @@ body:before {
   margin-right: 2%;
 }
 /* mobile*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .hello {
     width: 80%;
   }
-  .msg-div{
+  .msg-div {
     width: 90%;
   }
 }
