@@ -1,9 +1,9 @@
-body {
+/* body {
   background-image: url("../images/bground.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
-}
+} */
 .hello {
   background-color: rgb(0, 0, 0) !important; /* Fallback color */
   background-color: rgba(
@@ -88,20 +88,20 @@ body {
   margin-right: 2%;
 }
 /* for background */
-.supernova {
+.body-background {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-@media screen and (max-width: 480px){
-.supernova {
-  background-image : url("../images/bground.jpg");
-  background-size : cover;
-  height : 100%;
-  overflow : hidden;
-}
-body {
-  height : 100%;
-  overflow : scroll;
-  -webkit-overflow-scrolling : touch;
-}
+@media screen and (max-width: 480px) {
+  .body-background {
+    background-image: url("../images/bground.jpg");
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+  body {
+    height: 100%;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
 }
