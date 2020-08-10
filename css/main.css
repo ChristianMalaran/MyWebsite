@@ -1,10 +1,4 @@
-/* body {
-  background-image: url("../images/bground.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100%;
-  background-size: cover;
-} */
+/* para di mu scroll ang background sa mobile */
 body:before {
   font-family: "Open Sans", sans-serif;
   content: "";
@@ -21,6 +15,7 @@ body:before {
   -o-background-size: cover;
   background-size: cover;
 }
+
 .hello {
   background-color: rgb(0, 0, 0) !important; /* Fallback color */
   background-color: rgba(
@@ -33,17 +28,18 @@ body:before {
   border: 0.1px solid #0ed467 !important;
   margin-top: 10px;
   display: block !important;
-  margin-left: 27% !important;
+  margin: auto !important;
 
-  max-height: 350px;
-  width: 45%;
+  max-height: 380px;
+  width: 47%;
   padding: 10px;
   text-align: center;
   margin-bottom: 10px;
 }
 .msg-div {
   margin-top: 20px;
-  margin-left: 22%;
+  margin-left: auto !important;
+  margin-right: auto !important;
   height: 150px;
   width: 55%;
   margin-bottom: 10px;
@@ -52,6 +48,7 @@ body:before {
   color: rgb(251, 255, 251);
   font-style: italic;
   font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
 }
 .img-div {
   margin-left: auto;
@@ -84,7 +81,10 @@ body:before {
   font-weight: bold;
 }
 .skills-div {
+  margin-left: auto !important;
+  margin-right: auto !important;
   background-color: rgba(0, 0, 0, 0.6) !important;
+  
 }
 .skills {
   color: white;
