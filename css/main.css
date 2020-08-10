@@ -75,7 +75,7 @@ body:before {
 }
 .skills-head {
   text-align: center;
-  color: whitesmoke;
+  color: rgb(147, 252, 147);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-weight: bold;
@@ -86,7 +86,7 @@ body:before {
   background-color: rgba(0, 0, 0, 0.6) !important;
 }
 .skills {
-  color: white;
+  color: rgb(106, 240, 106);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   margin-left: 15px;
