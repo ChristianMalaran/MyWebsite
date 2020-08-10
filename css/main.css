@@ -94,13 +94,13 @@ body {
 }
 @media screen and (max-width: 480px){
 .supernova {
-  background-image : url("https://www.jotform.com/uploads/iAssist/form_files/Island%20cropped.295.jpg");
+  background-image : url("../images/bground.jpg");
   background-size : cover;
   height : 100%;
   overflow : hidden;
 }
 body {
-  height : 100%
+  height : 100%;
   overflow : scroll;
   -webkit-overflow-scrolling : touch;
 }
