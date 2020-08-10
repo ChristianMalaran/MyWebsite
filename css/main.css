@@ -31,7 +31,7 @@ body:before {
   margin: auto !important;
 
   max-height: 380px;
-  width: 47%;
+  width: 45%;
   padding: 10px;
   text-align: center;
   margin-bottom: 10px;
@@ -104,4 +104,12 @@ body:before {
   margin-left: 2%;
   margin-right: 2%;
 }
-/* for background */
+/* mobile*/
+@media only screen and (max-width: 600px) {
+  .hello {
+    width: 80%;
+  }
+  .msg-div{
+    width: 90%;
+  }
+}
