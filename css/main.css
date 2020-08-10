@@ -2,7 +2,7 @@ body {
   background-image: url("../images/bground.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 120%;
+  background-size: 100%;
 }
 .hello {
   background-color: rgb(0, 0, 0) !important; /* Fallback color */
@@ -86,4 +86,22 @@ body {
   display: inline;
   margin-left: 2%;
   margin-right: 2%;
+}
+/* for background */
+.supernova {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+@media screen and (max-width: 480px){
+.supernova {
+  background-image : url("https://www.jotform.com/uploads/iAssist/form_files/Island%20cropped.295.jpg");
+  background-size : cover;
+  height : 100%;
+  overflow : hidden;
+}
+body {
+  height : 100%
+  overflow : scroll;
+  -webkit-overflow-scrolling : touch;
+}
 }
